@@ -1,0 +1,22 @@
+#禁用thymeleaf的缓存功能，另外配置了一个角色为 USER 的用户，用户名/密码：user/password
+spring:
+  datasource:
+    url: jdbc:postgresql://47.240.28.41:5432/photo?useSSL=false&allowMultiQueries=true #主机地址:端口（一般是5432）/数据库名字
+    username: root
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+  autoconfigure:
+  jpa:
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.example.security.dao
+
+  thymeleaf:
+    cache: false
+
+
+

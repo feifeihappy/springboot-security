@@ -19,3 +19,15 @@ The following guides illustrate how to use some features concretely:
 
 
 [SpringBoot Security 用户 角色 权限 控制](https://www.jianshu.com/p/1cf918bf31d3)
+
+[SpringBoot Security 用户 角色 权限 控制](https://www.cnblogs.com/cjsblog/p/9152455.html)
+
+
+[ security 使用](https://blog.csdn.net/u013435893/article/details/79596628)
+
+[ security 使用](https://www.jianshu.com/p/edeb8d3d8a1b)
+
+[ security 使用](https://www.jianshu.com/p/6df285f30a79)
+
+[ security  可以参考](https://www.cnblogs.com/fp2952/p/8933107.html)
+
